@@ -121,11 +121,42 @@
     background-position: center;
     min-height: 300px;
   }
+
+  /* QUE OFRECEMOS */
+  .costos{
+      background-color: #4361EE;
+      min-height: 350px;
+      padding: 30px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.486);
+  }
+  .center{
+      margin: 25px auto;
+      width: 100%;
+      max-width: 1500px;
+  }
+  .costos__item{
+      background-color: #F8F9FA;
+      margin: auto 20px;
+      border-radius: 15px;
+      padding: 40px;
+      min-height: 320px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.383);
+  }
+  .costos__item p{
+      text-align: justify;
+  }
+  .costos__item h2{
+      margin-bottom: 25px;
+      text-align: center;
+      font-size: 1.7em;
+  }
 /* ARREGLOS RESPONSIVE */
 @media (max-width:990px) {
     .entrada__info-img{
         width: 7vw;
-
+    }
+    .costos__item{
+       margin: 25px 0;
     }
     
 }
