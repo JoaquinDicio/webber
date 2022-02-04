@@ -94,8 +94,8 @@
     line-height: 1.05;
 }
 .informacion__item-txt p{
-    margin-left: 35px;
-    margin-top: 20px;
+    margin: 20px 30px 20px 30px;
+    text-align: justify;
 }
 .informacion__item-img{
   background-image: url(../img/clientes.jpg);
@@ -103,7 +103,24 @@
   background-size: cover;
   border-radius:15px;
   background-position: center;
+  min-height: 300px;
 }
+.informacion__item-img2{
+    background-image: url(../img/responsive.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:15px;
+    background-position: center;
+    min-height: 300px;
+  }
+  .informacion__item-img3{
+    background-image: url(../img/economica.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:15px;
+    background-position: center;
+    min-height: 300px;
+  }
 /* ARREGLOS RESPONSIVE */
 @media (max-width:990px) {
     .entrada__info-img{
@@ -115,5 +132,13 @@
 @media (max-width:768px) {
     .entrada__info-img{
         width: 10vw;
+    }
+}
+@media (max-width:425px) {
+    .informacion__item-txt{
+        padding:40px 40px 66px;
+    }
+    .informacion__item-img{
+        display: none;
     }
 }
