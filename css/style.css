@@ -171,6 +171,8 @@
 
 .labelInput{
     border-radius: 3px;
+    padding-left: 7px;
+    padding-bottom: 3px;
     border: solid 1px;
     border-color: rgb(77, 76, 76);
     width: 100%;
